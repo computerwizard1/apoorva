@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+<target name="run" depends="compile">
+ <java classname="apoorva.classapoorva">
+    <classpath path="./src">   </classpath>
+ </java>
+</target>
+<target name="compile">
+  <javac includeantruntime="false" srcdir="./src">
+  
+  </javac>
+</target>
+
+</project>
