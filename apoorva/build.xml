@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
 <target name="run" depends="compile">
- <java classname="apoorva.classapoorva">
+ <java classname="a.classapoorva">
     <classpath path="./src">   </classpath>
  </java>
 </target>
